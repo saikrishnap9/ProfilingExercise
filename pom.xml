@@ -1,0 +1,56 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.test</groupId>
+  <artifactId>ProfilingAssessment</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+    <!-- Selenium WebDriver -->
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>4.9.0</version> <!-- or the latest stable version -->
+    </dependency>
+
+    <!-- Selenium WebDriver for Chrome (optional, for Chrome browser automation) -->
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-chrome-driver</artifactId>
+        <version>4.9.0</version> <!-- same version as selenium-java -->
+    </dependency>
+
+    <!-- Selenium WebDriver for Firefox (optional, for Firefox browser automation) -->
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-firefox-driver</artifactId>
+        <version>4.9.0</version>
+    </dependency>
+
+    <!-- Selenium WebDriver for Edge (optional, for Edge browser automation) -->
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-edge-driver</artifactId>
+        <version>4.9.0</version>
+    </dependency>
+
+    <!-- Selenium WebDriver for Safari (optional, for Safari browser automation) -->
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-safari-driver</artifactId>
+        <version>4.9.0</version>
+    </dependency>
+
+    <!-- Additional dependencies for specific browser drivers or features can be added here -->
+    <dependency>
+        <groupId>io.github.bonigarcia</groupId>
+        <artifactId>webdrivermanager</artifactId>
+        <version>5.3.0</version> <!-- or the latest version -->
+    </dependency>
+    
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.7.0</version> <!-- Use the latest version of TestNG -->
+        <scope>test</scope> <!-- Makes it available only for testing scope -->
+    </dependency>
+    </dependencies>
+</project>
